@@ -19,17 +19,6 @@ body, html {
     min-height: 100%;
 }
 
-
-/* Full height image header - result page */
-.bgimg-2 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("https://images.dailyhive.com/20191206124544/shutterstock_104815631.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-
 /* Set a style for all buttons */
 button {
     background-color: rgb(240, 239, 215);
@@ -79,6 +68,9 @@ button:hover {
 opacity:1;
     }
 
+option {
+    color:rgba(39, 37, 37, 0.938)
+}
     /* Add padding to container elements */
 .container {
     padding: 16px;
@@ -109,7 +101,8 @@ opacity:1;
         background: #4CAF50;
         cursor: pointer;
     }
-      
+
+
 
 
 
