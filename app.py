@@ -6,9 +6,9 @@ import os
 
 from flask_sqlalchemy import SQLAlchemy
 
-#conn = os.environ.get('DATABASE_URL')
+conn = os.environ.get('DATABASE_URL')
 #db = create_engine(conn)
-conn = "postgresql://{0}:{1}@{2}/{3}".format(secrets.dbuser, secrets.dbpass, secrets.dbhost, secrets.dbname)
+#conn = "postgresql://{0}:{1}@{2}/{3}".format(secrets.dbuser, secrets.dbpass, secrets.dbhost, secrets.dbname)
 #conn = os.environ.get('DATABASE_URL')
 db = create_engine(conn)
 
